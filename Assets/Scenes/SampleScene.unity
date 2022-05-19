@@ -172,6 +172,8 @@ MonoBehaviour:
   - {fileID: 1128613146845495224, guid: 063a4f07ec3b7a449933fb1e36809bb0, type: 3}
   - {fileID: 8802155593854956971, guid: 87c67f53efd6933459da14faa0d590af, type: 3}
   - {fileID: 8049098481535123307, guid: e9fa214c3cfe3c64c93d6bcea919c259, type: 3}
+  throwForce: 10
+  time: 60
 --- !u!1 &342790429
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,7 +676,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ac8d1ba4349eb4cbc65f1e3fd7cffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alertReference: {fileID: 1115591185}
+  time: 0
+  timescore: 60
+  Gameover: {fileID: 1115591185}
 --- !u!1 &1115591185
 GameObject:
   m_ObjectHideFlags: 0
