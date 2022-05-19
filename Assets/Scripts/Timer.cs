@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         timetext = gameObject.GetComponent<Text>();
-        // InvokeRepeating("ReduceTime", 1, 1);
+       
     }
 
     // Update is called once per frame

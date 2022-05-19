@@ -12,7 +12,7 @@ public class Apple : MonoBehaviour
 
     void Start()
     {
-        randomPos = new Vector3(Random.Range(-1, 1), Random.Range(0.3f, 0.7f), Random.Range(-6.5f, -7.5f));
+        randomPos = new Vector3(Random.Range(-1, 1), Random.Range(0.3f, 0.7f), Random.Range(-6.5f, -7.5f)); //To get the fruits in random positions in the game window
         scoreReference = GameObject.Find("Score").GetComponent<Text>();
     }
 
