@@ -166,7 +166,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b113e4f1dd5cb479e27a73be019ca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appleReference: {fileID: 1624223189416341581, guid: d4180f11fed2d36419a707a88681ce27, type: 3}
+  Fruits:
+  - {fileID: 1624223189416341581, guid: d4180f11fed2d36419a707a88681ce27, type: 3}
+  - {fileID: 1915547887185981765, guid: 40b50e4c35bce4e46b7c300e3f5f0baa, type: 3}
+  - {fileID: 1128613146845495224, guid: 063a4f07ec3b7a449933fb1e36809bb0, type: 3}
+  - {fileID: 8802155593854956971, guid: 87c67f53efd6933459da14faa0d590af, type: 3}
+  - {fileID: 8049098481535123307, guid: e9fa214c3cfe3c64c93d6bcea919c259, type: 3}
 --- !u!1 &342790429
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +202,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1995403933065894, guid: 4961a16ba01e09547be3e1c9d16d5ad0, type: 3}
-  scoreText: {fileID: 705089817}
+  particle: {fileID: 100004, guid: 7867af58a6ec48846ae807eb4022fbaa, type: 3}
+  scoretext: {fileID: 705089817}
   score: 0
 --- !u!4 &342790431
 Transform:
@@ -802,7 +808,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70663b1468e18b747abf537099092b35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a65ae06e78865fa4eb5aeffff246520b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
